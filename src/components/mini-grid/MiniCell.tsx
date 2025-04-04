@@ -10,8 +10,8 @@ export const MiniCell = ({ status }: Props) => {
     "w-10 h-10 border-solid border-2 border-slate-200 flex items-center justify-center mx-0.5 text-lg font-bold rounded",
     {
       "bg-white": status === "absent",
-      "bg-[#5d3a1a]": status === "correct",
-      "bg-[#d89c42]": status === "present",
+      "bg-[#c38c5c]": status === "correct",
+      "bg-[#ece162]": status === "present",
     }
   );
 

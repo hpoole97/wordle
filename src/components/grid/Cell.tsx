@@ -12,8 +12,8 @@ export const Cell = ({ value, status }: Props) => {
     {
       "bg-white border-slate-200": !status,
       "bg-slate-400 text-white border-slate-400": status === "absent",
-      "bg-[#5d3a1a] text-white border-[#5d3a1a]": status === "correct",
-      "bg-[#d89c42] text-white border-[#d89c42]": status === "present",
+      "bg-[#c38c5c] text-white border-[#c38c5c]": status === "correct",
+      "bg-[#ece162] text-white border-[#ece162]": status === "present",
     }
   );
 
