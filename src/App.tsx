@@ -68,13 +68,13 @@ function App() {
         message={`You lost, the word was ${solution}`}
         isOpen={isGameLost}
       />
-      <div className="flex w-80 mx-auto items-center mb-8">
-        <h1 className="text-xl grow font-bold">Turdle</h1>
-        <InformationCircleIcon
-          className="h-6 w-6 cursor-pointer"
-          onClick={() => setIsInfoModalOpen(true)}
-        />
-      </div>
+<div className="flex flex-col items-center mt-6 mb-10">
+  <img
+    src="/turdlebanner.png"
+    alt="Turdle logo"
+    className="w-full max-w-[320px] h-auto px-4"
+  />
+</div>
       <Grid guesses={guesses} currentGuess={currentGuess} />
       <Keyboard
         onChar={onChar}
